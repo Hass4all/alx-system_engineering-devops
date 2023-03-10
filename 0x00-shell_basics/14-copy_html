@@ -1,1 +1,2 @@
-cp *htkl ../
+#!/bin/bash
+cp *html ../
