@@ -1,2 +1,2 @@
 #!/bin/bash
-shell_redirections
+lahmak4
