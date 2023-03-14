@@ -1,1 +1,2 @@
-shell redirections
+#!/bin/bash
+shell_redirections
