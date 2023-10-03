@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Display the file content `/etc/passwd`
+# Task 100
+# Author : Hass4all
+
+myfile="/etc/passwd"
+while IFS= read -r line
+do
+    echo "$line" | cut -d":" -f1,3,6
+done < "$myfile"
